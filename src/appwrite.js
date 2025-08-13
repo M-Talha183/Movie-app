@@ -55,9 +55,9 @@
 // };
 import { Client, Databases, ID, Query } from 'appwrite';
 
-const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID;
-const DATABASE_ID = import.meta.env.VITE_APPWRITE_DATABASE_ID;
-const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID;
+const PROJECT_ID = import.meta.env.APPWRITE_PROJECT_ID;
+const DATABASE_ID = import.meta.env.APPWRITE_DATABASE_ID;
+const COLLECTION_ID = import.meta.env.APPWRITE_COLLECTION_ID;
 
 if (!PROJECT_ID || !DATABASE_ID || !COLLECTION_ID) {
   throw new Error('❌ Missing Appwrite environment variables.');
