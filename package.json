@@ -16,11 +16,13 @@
     "@mui/material": "^7.3.1",
     "@popperjs/core": "^2.11.8",
     "@tailwindcss/vite": "^4.1.11",
+    "appwrite": "^18.2.0",
     "bootstrap": "^5.3.7",
     "react": "^19.1.1",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.7.1",
+    "react-use": "^17.6.0",
     "swiper": "^11.2.10",
     "tailwindcss": "^4.1.11"
   },
